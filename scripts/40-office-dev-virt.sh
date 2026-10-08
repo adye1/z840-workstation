@@ -3,7 +3,7 @@
 source "$(dirname "$0")/lib.sh"
 apt_install git gh build-essential curl wget jq ripgrep fd-find tmux htop btop neovim shellcheck \
   python3-venv python3-pip pipx pandoc docker.io docker-compose-v2 \
-  qemu-system-x86 libvirt-daemon-system libvirt-clients virtinst virt-manager ovmf swtpm swtpm-tools bridge-utils \
+  qemu-system-x86 qemu-utils libvirt-daemon-system libvirt-clients virtinst virt-manager ovmf swtpm swtpm-tools bridge-utils \
   cockpit cockpit-machines cockpit-storaged cockpit-podman
 usermod -aG docker,libvirt,kvm "$TARGET_USER"
 snap list uv &>/dev/null || snap install astral-uv --classic
