@@ -1,0 +1,9 @@
+# secrets / keys / local state - never commit
+*.key
+*.env
+*.pem
+*password*
+.venv/
+__pycache__/
+evidence/
+reports/raw/
