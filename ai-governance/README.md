@@ -1,6 +1,6 @@
 # AI Governance & Security Lab (local, private)
 
-Hands-on companion for TCM Security PAPA (Practical AI Policy & Assessment) study.
+Hands-on companion for AI security and governance study (including TCM Security's Practical AI Pentest Associate, PAPA).
 Everything runs against **local models** (Ollama) so no prompts, data, or findings leave the workstation.
 
 ## Framework map
